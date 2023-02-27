@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>New Park - Login</title>
+    <style>
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+      }
+      
+      nav ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+      }
+      
+      main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      section {
+        margin: 40px 0;
+      }
+      
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      button[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      button[type="button"] {
+        float: right;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      button[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>New Park - Login</h1>
+      <nav>
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Acesse sua conta</h2>
+        <form>
+          <label for="usuario">Usuário:</label>
+          <input type="text" id="usuario" name="usuario" required>
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" required>
+          <button type="submit">Entrar</button>
+        </form>
+        <a href="novasenha.html">
+          <button type="button">Esqueci a senha</button>
+        </a>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; New Park - Estacionamentos - Todos os direitos reservados</p>
+    </footer>
+  </body>
+</html>

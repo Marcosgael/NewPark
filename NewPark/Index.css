@@ -3,8 +3,9 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav ul {
@@ -40,8 +41,8 @@ footer {
 
 p{
     line-height:0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color : aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color : rgb(116, 103, 103);
   }
 
   .bnt{
@@ -55,13 +56,12 @@ padding: 15px 32px;
   }
 
   h3{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
 .opcao{
-background: rgb(35, 241, 35);
-    width: 350px;
+
     border-radius: 15px;
     padding: 20px 5px;
     

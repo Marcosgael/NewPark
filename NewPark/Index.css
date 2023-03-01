@@ -37,3 +37,40 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+p{
+    line-height:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : aliceblue;
+  }
+
+  .bnt{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background: blue;
+border-radius: 10px;
+text-decoration:none;
+color: aliceblue;
+padding: 15px 32px;
+
+  }
+
+  h3{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.opcao{
+background: rgb(35, 241, 35);
+    width: 350px;
+    border-radius: 15px;
+    padding: 20px 5px;
+    
+     
+}
+
+.teste{
+    display: flex;
+
+}
+
+

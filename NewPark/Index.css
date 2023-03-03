@@ -39,38 +39,32 @@ footer {
     text-align: center;
 }
 
-p{
-    line-height:0;
+p {
+    line-height: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color : rgb(116, 103, 103);
-  }
+    color: rgb(116, 103, 103);
+}
 
-  .bnt{
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background: blue;
-border-radius: 10px;
-text-decoration:none;
-color: aliceblue;
-padding: 15px 32px;
+.bnt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: blue;
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 32px;
+}
 
-  }
-
-  h3{
+h3 {
     color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+}
 
-.opcao{
-
+.opcao {
     border-radius: 15px;
     padding: 20px 5px;
-    
-     
 }
 
-.teste{
+.teste {
     display: flex;
-
+    padding: 1px 42px;
 }
-
-

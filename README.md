@@ -1,22 +1,39 @@
-# NewPark
+
+<p align="center">
+<img src="https://cdn-icons-png.flaticon.com/512/7475/7475090.png" width="100px" height="100px" >
+
+
+
+  <img src="[[https://cdn-icons-png.flaticon.com/512/7475/7475090.png](https://yata-apix-aa731168-b8db-46fb-927f-41b9a903f48c.s3-object.locaweb.com.br/0c3a86fc40e045a28749d3a3d01352de.png)](https://www.sistemasrapidos.com.br/wp-content/uploads/2022/01/Confira-algumas-dicas-para-evitar-multas-de-estacionamento-800x739.png)" width="" height="" >
+
+
+
+</p>
+
+### SEJA BEM VINDO AO NEW PARK 👋
+O aplicativo pode permitir que os usuários reservem uma vaga de estacionamento com antecedência, pagando antecipadamente.
+
+- 🚗Encontrar estacionamento disponível
+
+- 💵Reservar uma vaga de estacionamento
+
+- #️⃣Pagamento móvel
+
+- 🚀Assistência ao cliente:
+
+- 📜Descontos em estacionamentos futuros
+
+- 🔭 Vagas de estacionamento premium
+
+- 🌱Avaliações e comentários
+
+
 Projeto PI 3° semestre!
-
-Encontrar estacionamento disponível: O aplicativo pode usar localização para ajudar os usuários a encontrar estacionamentos próximos que estejam disponíveis. 
-
-Reservar uma vaga de estacionamento: O aplicativo pode permitir que os usuários reservem uma vaga de estacionamento com antecedência, pagando antecipadamente. 
-
-Pagamento móvel: O aplicativo pode permitir que os usuários paguem por sua vaga de estacionamento diretamente pelo aplicativo. 
-
-Notificações de expiração de tempo: O aplicativo pode enviar notificações aos usuários quando seu tempo de estacionamento estiver prestes a expirar, para que possam renovar ou remover seus veículos. 
-
-Visualização do histórico de estacionamento: O aplicativo pode permitir que os usuários visualizem seu histórico de estacionamento, incluindo quando e onde estacionaram, quanto pagaram e por quanto tempo. 
-
-Avaliações e comentários: O aplicativo pode permitir que os usuários avaliem e comentem sobre sua experiência de estacionamento em um determinado local, ajudando outros usuários a tomar uma decisão informada sobre onde estacionar. 
-
-Assistência ao cliente: O aplicativo pode fornecer uma maneira fácil para os usuários entrarem em contato com a equipe de suporte ao cliente se tiverem problemas ou dúvidas sobre o uso do aplicativo ou do estacionamento. 
-
-Descontos em estacionamentos futuros: Os usuários podem ganhar pontos de fidelidade cada vez que estacionarem em um determinado local e, quando acumularem pontos suficientes, podem trocá-los por descontos em estacionamentos futuros. 
-
-Vagas de estacionamento premium: Os usuários podem ganhar acesso a vagas que permitem o carregamento de carros elétricos. 
-
-Pontos de recompensa: Os usuários podem acumular pontos de recompensa que podem ser trocados por outros benefícios, como descontos em lojas parceiras ou ingressos para eventos.
+<BR>
+<p align="center">
+👋 DIAGRAMA MER 👋
+</p>
+<p align="center">
+<img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Diagrama%20MER.png" width="600px" height="500px" >
+ </p>
+ 

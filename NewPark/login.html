@@ -28,13 +28,14 @@
     <main>
         <section>
             <h2>Acesse sua conta</h2>
-            <form>
-                <label for="usuario">Usuário:</label>
-                <input type="text" id="usuario" name="usuario" required>
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
-                <button type="submit">Entrar</button>
-            </form>
+            <form method="POST" action="PHP/processa.php">
+                <input type="submit" value="Salvar" class="button">
+                <br><br>
+                Nome<br>
+                <input type="text" name="usuario" class="campo"><br>
+                senha<br>
+                <input type="text" name="senha" class="campo"><br>
+            </form>  
             <a href="novasenha.html">
                 <button type="button">Esqueci a senha</button>
             </a>

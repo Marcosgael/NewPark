@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Carro</title>
+</head>
+<body>
+  <h1>Cadastro de Carro</h1>
+  <form method="post" action="PHP/cadastrar_carro.php">
+    <label for="marca">Marca:</label>
+    <input type="text" name="marca" required>
+    <br>
+    <label for="modelo">Modelo:</label>
+    <input type="text" name="modelo" required>
+    <br>
+    <label for="placa">Placa:</label>
+    <input type="text" name="placa" required>
+    <br>
+    <label for="eletrico">Elétrico:</label>
+    <input type="checkbox" name="eletrico" value="1">
+    <br>
+    <label for="id_usuario">ID do Usuário:</label>
+    <input type="text" name="id_usuario" required>
+    <br>
+    <input type="submit" value="Cadastrar">
+  </form>
+</body>
+</html>

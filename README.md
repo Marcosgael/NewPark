@@ -34,6 +34,6 @@ Projeto PI 3° semestre!
 👋 DIAGRAMA MER 👋
 </p>
 <p align="center">
-<img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Diagrama%20MER.png" width="600px" height="500px" >
+<img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Diagrama%20MER.png" width="900px" height="500px" >
  </p>
  

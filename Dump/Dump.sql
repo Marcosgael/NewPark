@@ -11,6 +11,7 @@ CREATE TABLE Usuario (
   senha VARCHAR(100) NOT NULL,
   sexo CHAR(1) NOT NULL,
   telefone VARCHAR(20) NULL,
+  administrador BOOLEAN NOT NULL,
   PRIMARY KEY (id_usuario)
 );
 
@@ -28,6 +29,7 @@ CREATE TABLE Carro (
 CREATE TABLE EmpresaEstacionamento (
   id_empresa INT NOT NULL AUTO_INCREMENT,
   nome VARCHAR(100) NOT NULL,
+  email VARCHAR(100) NOT NULL,
   endereco VARCHAR(200) NOT NULL,
   cep VARCHAR(9) NOT NULL,
   estado VARCHAR(50) NOT NULL,

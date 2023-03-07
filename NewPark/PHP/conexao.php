@@ -1,8 +1,8 @@
 <?php
-$hostname = "localhost";
-$user = "root";
-$password = "1234";
-$database = "estacionamento_db";
+$hostname = "mysql";
+$user = "u135882524_new";
+$password = "/0wuroCSn";
+$database = "u135882524_new";
 $conexao = mysqli_connect($hostname, $user, $password, $database);
 if(!$conexao){
     print "Falha";

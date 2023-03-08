@@ -14,7 +14,7 @@ $stmt = mysqli_prepare($conexao, $sql);
 mysqli_stmt_execute($stmt);
 mysqli_stmt_close($stmt);
 
-header("Location: http://localhost/NewPark/NewPark/Index.html");
+header("Location: C:\wamp64\www\NewPark\NewPark\Index.html");
 exit();
 
 mysqli_close($conexao);

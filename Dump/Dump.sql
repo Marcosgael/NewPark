@@ -94,3 +94,4 @@ CREATE TABLE Administrador (
   senha VARCHAR(100) NOT NULL,
   PRIMARY KEY(id_administrador)
 );
+

@@ -28,13 +28,14 @@ O aplicativo pode permitir que os usuários reservem uma vaga de estacionamento 
 - 🌱Avaliações e comentários
 
 
-### INTREGANTES DO GRUPO
+### INTREGANTES DO GRUPO - Turma D
 
 - 👩‍🦲 MARCOS SOUZA
 - 🧑 BRUNO GIL
 - 🍀 JOSE BEZZERA
 - 👾 BEATRIZ 
 - 🎤 CAROLINA RHAYANE
+
 
 Projeto PI 3° semestre!
 <BR>
@@ -44,4 +45,26 @@ Projeto PI 3° semestre!
 <p align="center">
 <img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Diagrama%20MER.png" width="900px" height="500px" >
  </p>
- 
+
+ <BR>
+<p align="center">
+👋 TELA LOGIN 👋
+</p>
+  <BR>
+   
+   
+<p align="center">
+<img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Tela%20login.png" width="900px" height="500px" >
+ </p>
+  
+  
+  <BR>
+<p align="center">
+👋 TELA CADASTRO 👋
+</p>
+  <BR>
+   
+   
+<p align="center">
+<img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Tela%20CADASTRO.png" width="900px" height="500px" >
+ </p>

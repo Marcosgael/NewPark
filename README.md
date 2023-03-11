@@ -1,8 +1,6 @@
 
-
-
 <p align="center">
-<img src="logo/New Park-1.png" width="290px" height="200px" >
+<img src="logo/New Park-1.png" width="359px" height="200px" >
 
   <img src="[[https://cdn-icons-png.flaticon.com/512/7475/7475090.png](https://yata-apix-aa731168-b8db-46fb-927f-41b9a903f48c.s3-object.locaweb.com.br/0c3a86fc40e045a28749d3a3d01352de.png)](https://www.sistemasrapidos.com.br/wp-content/uploads/2022/01/Confira-algumas-dicas-para-evitar-multas-de-estacionamento-800x739.png)" width="" height="" >
 

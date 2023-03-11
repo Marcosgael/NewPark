@@ -46,7 +46,7 @@ Projeto PI 3° semestre!
 <img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Tela%20login.png" width="900px" height="600px" >
  </p>
  
-    <BR>
+    
 <p align="center">
 👋 TELA CADASTRO 👋
 </p>

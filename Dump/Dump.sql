@@ -11,7 +11,7 @@ CREATE TABLE Usuario (
   senha VARCHAR(100) NOT NULL,
   sexo CHAR(1) NOT NULL,
   telefone VARCHAR(20) NULL,
-  data_criacao DATE NOT NULL(),
+  data_criacao DATE NOT NULL,
   administrador BOOLEAN NOT NULL,
   PRIMARY KEY (id_usuario)
 );
@@ -22,7 +22,7 @@ CREATE TABLE Carro (
   modelo VARCHAR(50) NOT NULL,
   placa VARCHAR(7) NOT NULL,
   eletrico BOOLEAN NOT NULL,
-  data_criacao DATE NOT NULL(),
+  data_criacao DATE NOT NULL,
   id_usuario INT NOT NULL,
   PRIMARY KEY (id_carro),
   FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
@@ -39,7 +39,7 @@ CREATE TABLE EmpresaEstacionamento (
   bairro VARCHAR(100) NOT NULL,
   cnpj VARCHAR(18) NOT NULL,
   telefone VARCHAR(20) NULL,
-  data_criacao DATE NOT NULL(),
+  data_criacao DATE NOT NULL,
   PRIMARY KEY (id_empresa)
 );
 
@@ -55,7 +55,7 @@ CREATE TABLE Estacionamento (
   horario_funcionamento_fim DATETIME NOT NULL,
   id_empresa INT NOT NULL,
   telefone VARCHAR(20) NULL,
-  data_criacao DATE NOT NULL(),
+  data_criacao DATE NOT NULL,
   PRIMARY KEY (id_estacionamento),
   FOREIGN KEY (id_empresa) REFERENCES EmpresaEstacionamento(id_empresa)
 );
@@ -73,7 +73,7 @@ CREATE TABLE Comentario (
 
 CREATE TABLE Reserva (
   id_reserva INT NOT NULL AUTO_INCREMENT,
-  data_criacao DATETIME NOT NULL(),
+  data_criacao DATETIME NOT NULL,
   data_inicio DATETIME NOT NULL,
   data_fim DATE NOT NULL,
   preco DECIMAL(10, 2) NOT NULL,
@@ -88,7 +88,7 @@ CREATE TABLE Reserva (
 
 CREATE TABLE Administrador (
   id_administrador INT NOT NULL AUTO_INCREMENT,
-  data_criacao DATE NOT NULL(),
+  data_criacao DATE NOT NULL,
   nome VARCHAR(100) NOT NULL,
   email VARCHAR(100) NOT NULL,
   senha VARCHAR(100) NOT NULL,

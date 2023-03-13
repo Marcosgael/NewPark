@@ -81,12 +81,13 @@
   </head>
   <body>
     <h1>Menu do Estacionamento</h1>
-    <div id="usuario">Bem-vindo, <span><?php echo $_SESSION['nome'];?></span>!</div>
+    <div id="usuario">Bem-vindo, <span><?php echo $_SESSION['nome']; ?></span>!</div>
     <ul>
-      <li><a href="estacionamento.html">Estacionamento mais próximo</a></li>
-      <li><a href="reserva.php">Realizar reserva</a></li>
-      <li><a href="cadastro_carro.html">Adicionar carro</a></li>
-      <li><a href="historico_reserva.php">Ver histórico</a></li>
+      <li><a href="cadastro_estacionamento.php">Adicionar Estacionamento</a></li>
+      <li><a href="cadastro_empresas.html">Adicionar Empresa</a></li>
+      <li><a href="historico.html">Ver Reservas por Usuario</a></li>
+      <li><a href="historico.html">Ajustar dados Estacionamento</a></li>
+      <li><a href="historico.html">Ajustar dados Empresa</a></li>
     </ul>
     <form action="#" method="get">
       <label for="buscar">Buscar estacionamento próximo:</label>
@@ -96,4 +97,3 @@
     <button onclick="location.href='PHP/logout.php'">Realizar Logout</button>
   </body>
 </html>
-

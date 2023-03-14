@@ -85,7 +85,7 @@
     <ul>
       <li><a href="cadastro_estacionamento.php">Adicionar Estacionamento</a></li>
       <li><a href="cadastro_empresas.html">Adicionar Empresa</a></li>
-      <li><a href="historico.html">Ver Reservas por Usuario</a></li>
+      <li><a href="historico_reserva_admin.php">Ver Reservas por Usuario</a></li>
       <li><a href="historico.html">Ajustar dados Estacionamento</a></li>
       <li><a href="historico.html">Ajustar dados Empresa</a></li>
     </ul>

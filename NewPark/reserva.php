@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Reservar Vaga no Estacionamento</title>
-</head>
-<body>
-	<h1>Reservar Vaga no Estacionamento</h1>
-	<form action="PHP/reservar_vaga.php" method="POST">
-		<label for="estacionamento">Estacionamento:</label>
-		<select id="estacionamento" name="estacionamento" required>
-			<option value="">Selecione um estacionamento</option>
-			<option value="1">Estacionamento A</option>
-			<option value="2">Estacionamento B</option>
-			<option value="3">Estacionamento C</option>
-		</select><br><br>
-	<label for="data">Data:</label>
-	<input type="date" id="data" name="data" required><br><br>
-	
-	<label for="hora_inicio">Hora de início:</label>
-	<input type="time" id="hora_inicio" name="hora_inicio" required><br><br>
-	
-	<label for="hora_fim">Hora de fim:</label>
-	<input type="time" id="hora_fim" name="hora_fim" required><br><br>
-	
-	<label for="tipo_veiculo">Tipo de veículo:</label>
-	<select id="tipo_veiculo" name="tipo_veiculo" required>
-		<option value="">Selecione um tipo de veículo</option>
-		<option value="carro">Carro</option>
-		<option value="moto">Moto</option>
-		<option value="caminhao">Caminhão</option>
-	</select><br><br>
-	
-	<label for="placa">Placa:</label>
-	<input type="text" id="placa" name="placa" required><br><br>
-	
-	<input type="submit" value="Reservar">
-	<input type="reset" value="Limpar">
-</form>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Reserva de Estacionamento</title>
+  </head>
+  <body>
+    <h1>Reserva de Estacionamento</h1>
+    <form action="PHP/cadastrar_reserva.php" method="post">
+      <label for="data_inicio">Data de Início:</label>
+      <input type="datetime-local" id="data_inicio" name="data_inicio" required><br><br>
+      
+      <label for="data_fim">Data de Fim:</label>
+      <input type="date" id="data_fim" name="data_fim" required><br><br>
+      
+      <label for="preco">Preço:</label>
+      <input type="number" id="preco" name="preco" min="0" step="0.01" required><br><br>
+      
+	  <label for="id_estacionamento">ID do Estacionamento:</label>
+		<select name="id_estacionamento">
+			<?php
+				include("PHP/conexao.php");
+
+				$result_empresas = mysqli_query($conexao, "SELECT * FROM Estacionamento");
+
+				while ($row_empresas = mysqli_fetch_array($result_empresas)) {
+					echo '<option value="' . $row_empresas['id_estacionamento'] . '">' . $row_empresas['nome'] . '</option>';
+				}
+			?>
+		</select>
+		<br><br>
+		<label for="id_carro">ID do Carro</label>
+		<select name="id_carro">
+			<?php
+				include("PHP/conexao.php");
+
+				$result_empresas = mysqli_query($conexao, "SELECT * FROM Carro");
+
+				while ($row_empresas = mysqli_fetch_array($result_empresas)) {
+					echo '<option value="' . $row_empresas['id_carro'] . '">' . $row_empresas['placa'] . '</option>';
+				}
+			?>
+		</select>
+		<br><br>
+      <input type="submit" value="Reservar">
+    </form>
+  </body>
 </html>
+
+

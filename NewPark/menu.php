@@ -1,4 +1,10 @@
-<?PHP include('PHP/protect.php'); if(!isset($_SESSION)){session_start();}?>
+<?PHP 
+include('PHP/protect.php'); 
+  if(!isset($_SESSION)) 
+  {  
+    session_start();
+  }
+?>
 
 <!DOCTYPE html>
 <html>

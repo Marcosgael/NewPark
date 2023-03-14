@@ -9,6 +9,4 @@ $conexao = mysqli_connect($hostname, $user, $password, $database);
 if (mysqli_connect_errno()) {
     die("Falha na conexão: " . mysqli_connect_error());
 }
-
-echo "Conexão estabelecida com sucesso!";
 ?>

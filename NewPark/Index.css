@@ -3,13 +3,9 @@ header {
     align-items: center;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    padding: 5px;
+    padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
-}
-
-.eu {
-    padding-left: 500px;
 }
 
 nav ul {
@@ -24,12 +20,6 @@ nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 10px;
-}
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
 }
 
 section {
@@ -71,6 +61,7 @@ h3 {
 .teste {
     display: flex;
     padding: 1px 42px;
+    width: 99%;
 }
 
 .dropdownmenu ul,
@@ -104,7 +95,6 @@ h3 {
     -ms-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease;
-    word-spacing: 500px;
 }
 
 .dropdownmenu li:hover a {
@@ -137,4 +127,10 @@ li:hover ul#submenu {
 
 #submenu a {
     background-color: #000000;
+}
+
+.conteiner {
+    background: #30A6E6;
+    width: 99%;
+    height: 80px;
 }

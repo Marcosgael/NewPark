@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Localização do dispositivo</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_API"></script>
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+        
+        var marker = new google.maps.Marker({
+          position: {lat: -34.397, lng: 150.644},
+          map: map,
+          title: 'Localização atual'
+        });
+      }
+    </script>
+  </head>
+  <body onload="initMap()">
+    <div id="map" style="height: 400px; width: 100%;"></div>
+  </body>
+</html>

@@ -1,7 +1,0 @@
-função verificarEspaçoDisponível(localização):
-    se espaço de estacionamento na localização estiver vago:
-        retorne verdadeiro
-    senão:
-        retorne falso
-
-

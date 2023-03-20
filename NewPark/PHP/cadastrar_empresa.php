@@ -1,6 +1,6 @@
 <?php
 
-include_once("conexao.php"); 
+include_once("conexao.php");
 
 $nome = $_POST['nome'] ?? null;
 $email = $_POST['email'] ?? null;

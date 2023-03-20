@@ -1,7 +1,9 @@
 <?php
 
-include_once("conexao.php"); 
-if(!isset($_SESSION)){session_start();}
+include_once("conexao.php");
+if (!isset($_SESSION)) {
+    session_start();
+}
 
 $data_criacao = date('Y-m-d') ?? null;
 $data_inicio = $_POST['data_inicio'] ?? null;

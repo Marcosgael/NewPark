@@ -18,6 +18,8 @@ if ($email && $senha) {
         exit();
     }
 
+    mysqli_close($conexao);
+
     $quantidade = $sql_query->num_rows;
 
     if ($quantidade == 1) {
@@ -46,4 +48,4 @@ if ($email && $senha) {
     exit();
 }
 
-mysqli_close($conexao);
+?>

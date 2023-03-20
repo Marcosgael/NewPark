@@ -1,12 +1,18 @@
 <?php
-include_once("PHP/conexao.php");
+
+include_once("conexao.php");
+
 if (!isset($_SESSION)) {
 	session_start();
 }
+
+$nome = ?? null;
+
 $sql = "SELECT * FROM Reserva WHERE id_usuario = ?";
 $stmt = mysqli_prepare($conexao, $sql);
-mysqli_stmt_bind_param($stmt, "i", $_SESSION['id_usuario']);
+mysqli_stmt_bind_param($stmt, "i", $nome);
 mysqli_stmt_execute($stmt);
+
 $reservas = mysqli_stmt_get_result($stmt);
 if (mysqli_num_rows($reservas) > 0) {
 	echo "<table>";
@@ -26,5 +32,6 @@ if (mysqli_num_rows($reservas) > 0) {
 } else {
 	echo "Você não tem reservas.";
 }
+
 mysqli_close($conexao);
 ?>

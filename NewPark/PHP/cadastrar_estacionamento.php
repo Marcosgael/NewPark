@@ -22,8 +22,6 @@ mysqli_stmt_execute($stmt);
 mysqli_stmt_close($stmt);
 
 header("Location: http://localhost/NewPark/NewPark/Index.html");
-exit();
-
 mysqli_close($conexao);
-
+exit();
 ?>

@@ -16,6 +16,6 @@ mysqli_stmt_close($stmt);
 
 header("Location: http://localhost/NewPark/NewPark/");
 
-pppmysqli_close($conexao);
+mysqli_close($conexao);
 exit();
 ?>

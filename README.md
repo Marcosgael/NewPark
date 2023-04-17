@@ -30,7 +30,7 @@ O aplicativo pode permitir que os usuários reservem uma vaga de estacionamento 
 
 - 👩‍🦲 MARCOS SOUZA
 - 🧑 BRUNO GIL
-- 🍀 JOSE BEZZERA
+- 🍀 JOSE BEZERRA
 - 👾 BEATRIZ 
 - 🎤 CAROLINA RHAYANE
 

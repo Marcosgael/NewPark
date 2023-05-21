@@ -21,7 +21,7 @@ O aplicativo pode permitir que os usuários reservem uma vaga de estacionamento 
 
 - 📜Descontos em estacionamentos futuros
 
-- 🔭 Vagas de estacionamento premium
+- 🔭 Vagas de estacionamento premiums
 
 - 🌱Avaliações e comentários
 
@@ -31,7 +31,6 @@ O aplicativo pode permitir que os usuários reservem uma vaga de estacionamento 
 - 👩‍🦲 MARCOS SOUZA
 - 🧑 BRUNO GIL
 - 🍀 JOSE BEZERRA
-- 👾 BEATRIZ 
 - 🎤 CAROLINA RHAYANE
 
 

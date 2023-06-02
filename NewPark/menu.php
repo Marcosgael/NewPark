@@ -85,8 +85,6 @@ include('PHP/protect.php');
     <img src="\NewPark\logo\logo_newpark_jose" width="230px" height="130px">
 <center>
     <h1>Menu do Estacionamento</h1>
-
-    <bzerrno>
     <div id="usuario">Bem-vindo, <span><?php echo $_SESSION['nome'];?></span>!</div>
     <ul>
       <li><a href="estacionamento.html"><img src="\NewPark\logo\1" width="230px" height="230px"> </a>

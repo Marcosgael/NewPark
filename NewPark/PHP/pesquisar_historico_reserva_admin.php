@@ -6,7 +6,7 @@ if (!isset($_SESSION)) {
 	session_start();
 }
 
-$nome = ?? null;
+$nome = isset($_SESSION['nome']) ? $_SESSION['nome'] : null;
 
 $sql = "SELECT * FROM Reserva WHERE id_usuario = ?";
 $stmt = mysqli_prepare($conexao, $sql);

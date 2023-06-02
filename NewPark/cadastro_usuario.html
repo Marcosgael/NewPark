@@ -5,30 +5,72 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="cadastro_usuario.css" media="screen" />
+  
   <title>CADASTRO</title>
 </head>
 <body>
+  <body>
+    <header class="conteiner">
+
+      <img src="/logo/logo_newpark_jose.png" width="230px" height="130px">
+      
+      <nav class="dropdownmenu">
+          <ul>
+              <li style="letter-spacing: 4px;"><a href="Index.html">HOME</a></li>
+              <li style="letter-spacing: 4px;"><a href="sobre.html">SOBRE</a></li>
+              <li style="letter-spacing: 4px;"><a href="servicos.html">SERVIÇOS</a></li>
+              <li style="letter-spacing: 4px;"><a href="contato.html">CONTATO</a></li>
+              <li style="letter-spacing: 4px;"><a href="login.html">LOGIN</a>
+              </li>
+              </li>
+          </ul>
+          </ul>
+      </nav>
+      </header>
+
+
+
+
   <center>
-  <h1>Cadastro de Usuário</h1>
+  <h1 class="ca">Cadastro de Usuário</h1>
+
   <form method="POST" action="PHP/cadastrar_usuario.php">
-    <label for="nome">Nome:</label>
-    <input type="text" name="nome" required>
+
+    <label for="nome" class="ca">Nome</label><br>
+
+    <input type="text" name="nome" class="nome" required>
     <br><br>
-    <label for="email">E-mail:</label>
-    <input type="email" name="email" required>
+
+    <label for="email" class="ca" >E-mail</label><br>
+    <input type="email" name="email" class="nome"required>
     <br><br>
-    <label for="senha">Senha:</label>
-    <input type="password" name="senha" required>
+
+    <label for="email" class="ca" >Confirma e-mail</label><br>
+    <input type="email" name="email" class="nome"required>
     <br><br>
-    <label for="sexo">Sexo:</label>
+
+    <label for="senha" class="ca" >Senha</label><br>
+    <input type="password" name="senha"class="nome" required>
+    <br><br>
+
+    <label for="senha" class="ca" >Confirma senha</label><br>
+    <input type="password" name="senha"class="nome" required>
+    <br><br>
+
+<label for="telefone" class="ca" >Telefone</label><br>
+    <input type="tel" name="telefone" class="nome" >
+    <br><br>
+
+    <label for="sexo" class="ca" >Sexo</label><br>
     <input type="radio" name="sexo" value="M" checked> Masculino
     <input type="radio" name="sexo" value="F"> Feminino
     <br><br>
-    <label for="telefone">Telefone:</label>
-    <input type="tel" name="telefone">
-    <br><br>
-    <input type="submit" value="Cadastrar">
+
+    
+
+    <input type="submit" value="Cadastrar" class="button">
   </form>
+
   </center>
 </body>
 </html>

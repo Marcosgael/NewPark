@@ -25,17 +25,8 @@ include('PHP/protect.php');
         margin: 0;
         padding: 0;
       }
-      li {
-        margin: 10px 0;
-      }
-      a {
-        display: block;
-        padding: 10px;
-        border: 1px solid #cccccc;
-        border-radius: 5px;
-        text-decoration: none;
-        color: #333333;
-      }
+      
+     
       a:hover {
         background-color: #cccccc;
       }
@@ -86,14 +77,22 @@ include('PHP/protect.php');
     </style>
   </head>
   <body>
+    <img src="\NewPark\logo\logo_newpark_jose" width="230px" height="130px">
+
     <h1>Menu do Estacionamento</h1>
+
+    
     <div id="usuario">Bem-vindo, <span><?php echo $_SESSION['nome'];?></span>!</div>
     <ul>
-      <li><a href="estacionamento.html">Estacionamento mais próximo</a></li>
-      <li><a href="reserva.php">Realizar reserva</a></li>
-      <li><a href="cadastro_carro.html">Adicionar carro</a></li>
-      <li><a href="historico_reserva.php">Ver histórico</a></li>
+      <li><a href="estacionamento.html"><img src="\NewPark\logo\1" width="230px" height="230px"> </a>
+
+      <li><a href="reserva.php"><img src="\NewPark\logo\1" width="230px" height="230px"> </a>Realizar reserva</a>
+
+      <li><a href="cadastro_carro.html"><img src="\NewPark\logo\1" width="230px" height="230px"> </a>Adicionar carro</a></li>
+
+      <li><a href="historico_reserva.php"><img src="\NewPark\logo\1" width="230px" height="230px"> </a>Ver histórico</a></li>
     </ul>
+
     <form action="#" method="get">
       <label for="buscar">Buscar estacionamento próximo:</label>
       <input type="text" id="buscar" name="buscar" placeholder="Digite o endereço ou CEP">

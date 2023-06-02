@@ -1,8 +1,8 @@
-CREATE DATABASE estacionamento_db
+CREATE DATABASE u135882524_newpark2
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
 
-USE estacionamento_db;
+USE u135882524_newpark2;
 
 CREATE TABLE Usuario (
   id_usuario INT NOT NULL AUTO_INCREMENT,

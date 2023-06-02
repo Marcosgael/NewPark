@@ -27,7 +27,13 @@ if ($stmt) {
 
 mysqli_close($conexao);
 
-header("Location: http://localhost/NewPark/NewPark/menu.php");
+if ($_SESSION['administrador'] == 1) {
+    header("Location: http://localhost/NewPark/NewPark/menu_admin.php");
+    exit();
+} else {
+    header("Location: http://localhost/NewPark/NewPark/menu.php");
+    exit();
+}
 
 exit();
 

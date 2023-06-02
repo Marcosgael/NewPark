@@ -20,7 +20,14 @@ $stmt = mysqli_prepare($conexao, $sql);
 mysqli_stmt_execute($stmt);
 mysqli_stmt_close($stmt);
 
-header("Location: http://localhost/NewPark/NewPark/Index.html");
+if ($_SESSION['administrador'] == 1) {
+    header("Location: http://localhost/NewPark/NewPark/menu_admin.php");
+    exit();
+} else {
+    header("Location: http://localhost/NewPark/NewPark/menu.php");
+    exit();
+}
+
 mysqli_close($conexao);
 exit();
 ?>

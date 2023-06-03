@@ -51,7 +51,7 @@ Projeto PI 3° semestre!
    
    
 <p align="center">
-<img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Tela%20login.png" width="900px" height="500px" >
+<img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Ideias_telas_jose/Ideia_tela_cadastro_usuario.png" height="500px" >
  </p>
   
   

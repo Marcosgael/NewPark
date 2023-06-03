@@ -40,7 +40,7 @@ Projeto PI 3° semestre!
 👋 DIAGRAMA MER 👋
 </p>
 <p align="center">
-<img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Diagrama%20MER.png" width="900px" height="500px" >
+<img src="https://github.com/Marcosgael/NewPark/blob/main/Dump/Diagrama%20MER.png" width="900px" height="500px" >
  </p>
 
  <BR>
@@ -51,7 +51,7 @@ Projeto PI 3° semestre!
    
    
 <p align="center">
-<img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Ideias_telas_jose/Ideia_tela_cadastro_usuario.png" height="500px" >
+<img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Ideias_telas_jose/Ideia_tela_login.png" height="500px" >
  </p>
   
   
@@ -63,5 +63,5 @@ Projeto PI 3° semestre!
    
    
 <p align="center">
-<img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Tela%20CADASTRO.png" width="900px" height="500px" >
+<img src="https://github.com/Marcosgael/NewPark/blob/main/Doc's/Ideias_telas_jose/Ideia_tela_cadastro_usuario.png" width="900px" height="500px" >
  </p>
